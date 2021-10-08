@@ -21,13 +21,6 @@ exports.getSuccessfulReadObject = (data) => {
 	};
 };
 
-exports.getUnSuccessfulReadObject = () => {
-	return {
-		success: false,
-		data: {},
-		message: "No Record were found",
-	};
-};
 exports.getSuccessfulDeletedRecordObject = (data = {}) => {
 	return {
 		success: true,
